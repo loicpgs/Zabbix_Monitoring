@@ -1,0 +1,11 @@
+﻿.vagrant/
+*.box
+*.log
+.DS_Store
+Thumbs.db
+*~
+*.pem
+*.key
+*.crt
+*.swp
+*.tmp
