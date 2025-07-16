@@ -1,0 +1,92 @@
+## ------------------------
+# Fichiers systèmes
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Fichiers d'éditeur / temporaires
+# ------------------------
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.~*
+*~
+
+# ------------------------
+# Dossier Vagrant (machines virtuelles)
+# ------------------------
+.vagrant/
+
+# ------------------------
+# Docker
+# ------------------------
+*.env
+docker-compose.override.yml
+
+# ------------------------
+# Fichiers de configuration sensibles (certificats, clés, configs privées)
+# ------------------------
+*.pem
+*.key
+*.crt
+*.conf
+*.cfg
+*.cnf
+*.secret
+*.vault
+
+# ------------------------
+# Archives, packages, fichiers build
+# ------------------------
+*.tar
+*.tar.gz
+*.zip
+*.gz
+*.deb
+*.rpm
+*.img
+
+# ------------------------
+# Logs (si dossier /logs existe)
+# ------------------------
+logs/
+*.log
+
+# ------------------------
+# Environnements locaux
+# ------------------------
+.env
+.env.local
+.env.*
+
+# ------------------------
+# Python (si scripts Python utilisés)
+# ------------------------
+__pycache__/
+*.pyc
+
+# ------------------------
+# Node.js (si ajout futur d’interface ou dashboard custom)
+# ------------------------
+node_modules/
+dist/
+
+# ------------------------
+# IDEs
+# ------------------------
+.idea/
+.vscode/
+
+# ------------------------
+# Sauvegardes et fichiers temporaires spécifiques
+# ------------------------
+notes.md.bak
+*.retry
+
+# ------------------------
+# Sorties diverses
+# ------------------------
+*.out
