@@ -75,15 +75,15 @@ Le script est prévu pour **Ubuntu 22.04**
 
 ## ✅ À faire
 
- *Installation serveur Zabbix et base de données
+ **Installation serveur Zabbix** et base de données
 
- *Installation et configuration d’agents sur plusieurs VM clientes
+ **Installation et configuration d’agents** sur plusieurs VM clientes
 
- *Création de templates, triggers et dashboards personnalisés
+ *Création de **templates**, **triggers** et **dashboards** personnalisés
 
- *Configuration des alertes automatisées
+ *Configuration des **alertes automatisées**
 
-#Licence
+# Licence
 
 M.I.T
 
