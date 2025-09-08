@@ -9,15 +9,17 @@
 ## 📁 Structure du projet
 
 Zabbix-Monitoring/
-├── setup/ # Scripts d'installation et de configuration
-│ ├── Install_zabbix_server.sh
-│ └── Install_zabbix_agent.sh
-├── zabbix-server/ # Fichiers liés au serveur Zabbix (config, logs, etc.)
-├── zabbix-agent/ # Fichiers liés aux agents Zabbix
-├── notes.md # Journal de bord et documentation technique
-├── Vagrantfile # (optionnel) pour déploiement automatisé des VM
-└── README.md # Présentation du projet
-
+├── setup/                     # Scripts d'installation et configuration
+│   ├── Install_zabbix_server.sh
+│   └── Install_zabbix_agent.sh
+│
+├── zabbix-server/             # Fichiers liés au serveur Zabbix (config, logs, templates)
+│
+├── zabbix-agent/              # Fichiers liés aux agents Zabbix (config, monitoring)
+│
+├── notes.md                   # Journal de bord et documentation technique
+├── Vagrantfile                # (optionnel) Déploiement automatisé des VM avec Vagrant
+└── README.md                  # Présentation générale du projet
 
 ---
 
