@@ -47,34 +47,33 @@ Zabbix-Monitoring/
 
 ## 🚀 Installation rapide
 
-Lancez le script d’installation serveur depuis le dossier `setup` :
+**Lancez le script d’installation** serveur depuis le dossier **`setup`**:
 
-```bash
 sudo bash setup/Install_zabbix_server.sh
 
-Ce script :
+**Ce script :**
 
 met à jour le système
 
-installe MariaDB, Zabbix server, frontend et agent
+installe **MariaDB**, **Zabbix server**, frontend et agent
 
-configure la base de données Zabbix et l’utilisateur dédié
+configure la **base de données Zabbix** et l’utilisateur dédié
 
 importe le schéma de base dans la base de données
 
 démarre et active les services nécessaires (mariadb, zabbix-server, zabbix-agent, nginx, php-fpm)
 
-📌 Notes
+## 📌 Notes
 
-*Le script est prévu pour Ubuntu 22.04
+Le script est prévu pour **Ubuntu 22.04**
 
-*La base zabbix doit être créée manuellement si elle existe déjà
+*La **base zabbix doit être créée manuellement** si elle existe déjà
 
 *La configuration frontend Zabbix est accessible via le navigateur après installation
 
-*Ce projet est en cours de développement, la documentation et les scripts seront enrichis
+*Ce projet est **en cours de développement**, la documentation et les scripts seront enrichis
 
-✅ À faire
+## ✅ À faire
 
  *Installation serveur Zabbix et base de données
 
@@ -84,7 +83,7 @@ démarre et active les services nécessaires (mariadb, zabbix-server, zabbix-age
 
  *Configuration des alertes automatisées
 
-Licence
+#Licence
 
 M.I.T
 
