@@ -1,12 +1,12 @@
-# 🔧 Zabbix Monitoring
+# Zabbix Monitoring
 
-📌 Déploiement d’une solution de supervision avec **Zabbix**  
-🎯 Objectif : surveiller serveurs, services et ressources via agents, dashboards et alertes  
-🧩 Le projet inclut l’installation, la configuration et les premiers scénarios de supervision
+Déploiement d’une solution de supervision avec **Zabbix**  
+Objectif : surveiller serveurs, services et ressources via agents, dashboards et alertes  
+Le projet inclut l’installation, la configuration et les premiers scénarios de supervision
 
----
 
-## 📁 Structure du projet
+
+## Structure du projet
 
 Zabbix-Monitoring/
 ├── setup/                     # Scripts d'installation et configuration
@@ -23,7 +23,7 @@ Zabbix-Monitoring/
 
 ---
 
-## 🚀 Objectifs techniques
+##  Objectifs techniques
 
 - Installer et configurer un serveur **Zabbix 6.4** sur Ubuntu 22.04  
 - Installer MariaDB et configurer la base de données pour Zabbix  
@@ -32,20 +32,20 @@ Zabbix-Monitoring/
 - Superviser des métriques système et services (CPU, disque, HTTP, SSH...)  
 - Mettre en place des dashboards et alertes de base  
 
----
 
-## 🛠️ Technologies utilisées
 
-- 🐧 **Ubuntu Server 22.04 LTS** (VM Vagrant)  
-- 🐘 **MariaDB 10.6** (base de données)  
-- 🕸️ **Zabbix 6.4** (serveur, frontend, agent)  
-- 🌐 **Nginx** + **PHP-FPM** (serveur web frontend)  
-- 📝 **Shell scripts** pour automatiser l'installation  
-- 🔄 **Vagrant** (pour la gestion des machines virtuelles)  
+##  Technologies utilisées
 
----
+-  **Ubuntu Server 22.04 LTS** (VM Vagrant)  
+-  **MariaDB 10.6** (base de données)  
+-  **Zabbix 6.4** (serveur, frontend, agent)  
+-  **Nginx** + **PHP-FPM** (serveur web frontend)  
+-  **Shell scripts** pour automatiser l'installation  
+-  **Vagrant** (pour la gestion des machines virtuelles)  
 
-## 🚀 Installation rapide
+
+
+##  Installation rapide
 
 **Lancez le script d’installation** serveur depuis le dossier **`setup`**:
 
@@ -63,7 +63,7 @@ importe le schéma de base dans la base de données
 
 démarre et active les services nécessaires (mariadb, zabbix-server, zabbix-agent, nginx, php-fpm)
 
-## 📌 Notes
+##  Notes
 
 Le script est prévu pour **Ubuntu 22.04**
 
@@ -73,7 +73,7 @@ Le script est prévu pour **Ubuntu 22.04**
 
 *Ce projet est **en cours de développement**, la documentation et les scripts seront enrichis
 
-## ✅ À faire
+##  À faire
 
  **Installation serveur Zabbix** et base de données
 
